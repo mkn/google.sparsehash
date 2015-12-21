@@ -1,0 +1,5 @@
+
+
+name: google.sparsehash
+version: master
+inc: ./include
