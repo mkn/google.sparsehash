@@ -7,6 +7,7 @@
 #define GOOGLE_NAMESPACE  ::google
 
 #if (_MSC_VER >= 1800 )
+
 /* the location of the header defining hash functions */
 #define HASH_FUN_H  <unordered_map>
 
@@ -44,6 +45,7 @@
 
 /* define if the compiler supports unordered_{map,set} */
 #undef HAVE_UNORDERED_MAP
+
 #endif
 
 /* the namespace of the hash<> function */
