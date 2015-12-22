@@ -2,4 +2,4 @@
 
 ./configure
 make;
-git update-index --assume-unchanged configure
+#git update-index --assume-unchanged configure
