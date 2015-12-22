@@ -1,3 +1,5 @@
-./configure --prefix=$PWD;
+
+
+./configure
 make;
-make install;
+git update-index --assume-unchanged configure
