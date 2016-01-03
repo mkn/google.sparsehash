@@ -1,2 +1,4 @@
-
-*
+*.Po
+*.o
+*.dSYM/*
+include
