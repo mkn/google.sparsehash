@@ -1,0 +1,19 @@
+
+
+name: google.sparsehash
+version: stable
+inc: .
+
+profile:
+   - name: test
+     inc: .
+     src: tests
+     dep:
+       - name: google.test
+         version: master
+     main: tests/testmain.cc
+
+   - name: bench
+     inc: .
+     main: tests/bench.cc
+
