@@ -1,17 +1,8 @@
 
 
-CXX=
-if [ -z `which $CXX` ]; then
-	CXX=clang++
-fi
-if [ -z `which $CXX` ]; then
-	CXX=g++
-fi
-if [ -z `which $CXX` ]; then
-	echo NO COMPILER FOUND g++/clang++. ERROR EXIT
-	exit 3
-fi
+CXX=g++
+[ -z "$(which clang++)" ] || CXX=clang++
 ./configure --prefix=$PWD
 make CXX=${CXX}
-make install
+make CXX=${CXX} install
 git update-index --assume-unchanged configure
