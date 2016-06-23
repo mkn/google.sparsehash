@@ -1,5 +1,5 @@
 
 
 name: google.sparsehash
-version: master
+version: c++0x
 inc: ./include
