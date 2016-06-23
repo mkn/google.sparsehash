@@ -1,7 +1,7 @@
 
 
 name: google.sparsehash
-version: stable
+version: master
 inc: .
 
 profile:
