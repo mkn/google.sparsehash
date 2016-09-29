@@ -2,7 +2,7 @@
 
 name: google.sparsehash
 version: master
-inc: .
+inc: google
 
 profile:
    - name: test
@@ -11,9 +11,9 @@ profile:
      dep:
        - name: google.test
          version: master
-     main: tests/testmain.cc
+     main: google/tests/testmain.cc
 
    - name: bench
      inc: .
-     main: tests/bench.cc
+     main: google/tests/bench.cc
 
