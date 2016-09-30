@@ -6,11 +6,8 @@ inc: google
 
 profile:
    - name: test
-     inc: google
-     src: tests
-     dep:
-       - name: google.test
-         version: master
+     inc: google google/tests
+     src: google/tests
      main: google/tests/testmain.cc
 
    - name: bench
